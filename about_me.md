@@ -4,6 +4,13 @@ filename: about_me
 layout: default
 
 --- 
+<header class="page-header" role="banner">
+    <a href="./" class="btn">Research</a>
+    <a href="./about_me" class="btn">About me</a>
+    <a href="./files/2023.08.11_CV.pdf" class="btn">CV</a>
+    <a href="https://orcid.org/0000-0002-0955-1031" class="btn">ORCID</a>
+    <a href="mailto:solaj@uci.edu" class="btn">solaj@uci.edu</a>
+</header>  
 <head>
   <link rel="shortcut icon" href="favicon.ico?v=BGAqyRPREE">
   <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png?v=BGAqyRPREE">
@@ -14,13 +21,7 @@ layout: default
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 </head>
-<header class="page-header" role="banner">
-    <a href="./" class="btn">Research</a> | 
-    <a href="./about_me" class="btn">About me</a> | 
-    <a href="./files/2023.08.11_CV.pdf" class="btn">CV</a> | 
-    <a href="https://orcid.org/0000-0002-0955-1031" class="btn">ORCID</a> | 
-    <a href="mailto:justin.sola@uci.edu" class="btn">justin.sola@uci.edu</a>
-</header>  
+
 <p align="center">
   <b>
     <a href="./">Research</a> | 
