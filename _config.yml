@@ -3,6 +3,6 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 - jekyll-seo-tag
 title: Justin Lucas Sola
-description: Criminology, Law & Society PhD Candidate - On the Market
+description: Criminology, Law & Society PhD Candidate
 google_analytics: G-CMW3H6D7HX
 show_downloads: false
