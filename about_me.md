@@ -1,5 +1,5 @@
 ---
-title: About me
+title: Justin Lucas Sola
 filename: about_me
 layout: default
 
