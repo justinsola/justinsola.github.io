@@ -27,4 +27,4 @@ In my professional service I review for [the American Sociological Review and Cr
 ### Prior Experience and Interests
 Before academia, I built models and developed strategies for technology and infrastructure companies as a consultant and data analyst. I earned my bachelors in 2014 at Harvard - with a major in [Social Studies](https://socialstudies.fas.harvard.edu/) and minor in Psychology - and wrote a senior thesis on how police and gun owners idealized gun ownership. 
 
-Outside of work, I enjoy culinary experiments (like creating my own [beef jerky recipe](https://docs.google.com/spreadsheets/d/14g3BNcLFfN2xKgDRqwK4-0S1jt4SJRSaw_OR_8raQ0g/edit?usp=sharing)), being active, and the challenge of mastering progressive metal drum parts.
+Outside of work, I enjoy culinary experiments (like creating my own [beef jerky recipe](https://docs.google.com/spreadsheets/d/14g3BNcLFfN2xKgDRqwK4-0S1jt4SJRSaw_OR_8raQ0g/edit?usp=sharing)), being active, and the challenge of playing progressive metal drum parts.
