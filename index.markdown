@@ -16,7 +16,7 @@ layout: default
   <meta name="theme-color" content="#ffffff">
 </head>
 
-I research gun ownership and how the criminal justice system interacts with inequality. I use preregistered experiments (forced-choice conjoint and vignette), longitudinal designs (smartphone-delivered surveys), semi-structured interviews, participant observation, and content analysis techniques like topic modeling.
+On the market! I research gun ownership and how the criminal justice system interacts with inequality. I use preregistered experiments (forced-choice conjoint and vignette), longitudinal designs (smartphone-delivered surveys), semi-structured interviews, participant observation, and content analysis techniques like topic modeling.
 
 My active projects include:
 1.  Evaluating the [Shadow Costs](https://www.shadowcosts.com/) of treatment programs
