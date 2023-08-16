@@ -4,21 +4,12 @@ filename: about_me
 layout: default
 
 --- 
-
 <style>
   img {
-    max-width: 30%;
+    max-width: 40%;
     height: auto;
   }
 </style>
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/justinsola/justinsola.github.com/master/files/small_edited_headshot.jpg">
-</p>
-
-### About Me
-<img src="https://raw.githubusercontent.com/justinsola/justinsola.github.com/master/files/small_edited_headshot.jpg" align="right">
-On the market PhD candidate at UC Irvine’s [Criminology, Law & Society](https://cls.soceco.uci.edu/pages/phd-program) program with an emphasis in Race and Justice. I have been recognized with the 2023-24 Haynes Fellowship, the 2022-23 [National Collaborative on Gun Violence Research Award](https://www.ncgvr.org/grants/2022/assessing-the-causes-of-gun-desirability-in-america.html), the 2022-23 UC Irvine Public Impact Fellowship, and the 2018-23 Social Ecology Arnie Binder Fellowship. I do fieldwork and manage data for the [Shadow Costs](https://www.shadowcosts.com) project, which tests the impact of rehabilitation classes and monetary sanctions (funded ny NSF, NIJ, RSF, and Haynes grants). I am also a member of the [Irvine Laboratory for the Study of Space and Crime](http://ilssc.soceco.uci.edu/).
 
 ### About Me
 <img srcset="
@@ -26,7 +17,7 @@ On the market PhD candidate at UC Irvine’s [Criminology, Law & Society](https:
     ./files/edited_headshot_w1064.jpg 1064w
   " 
   align="right"
-  sizes="40vw">
+  sizes="40vw, 800px">
 On the market PhD candidate at UC Irvine’s [Criminology, Law & Society](https://cls.soceco.uci.edu/pages/phd-program) program with an emphasis in Race and Justice. I have been recognized with the 2023-24 Haynes Fellowship, the 2022-23 [National Collaborative on Gun Violence Research Award](https://www.ncgvr.org/grants/2022/assessing-the-causes-of-gun-desirability-in-america.html), the 2022-23 UC Irvine Public Impact Fellowship, and the 2018-23 Social Ecology Arnie Binder Fellowship. I do fieldwork and manage data for the [Shadow Costs](https://www.shadowcosts.com) project, which tests the impact of rehabilitation classes and monetary sanctions (funded ny NSF, NIJ, RSF, and Haynes grants). I am also a member of the [Irvine Laboratory for the Study of Space and Crime](http://ilssc.soceco.uci.edu/).
 
 ### Service
