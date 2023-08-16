@@ -1,5 +1,5 @@
 ---
-title: Research
+title: Justin Lucas Sola
 filename: research
 layout: default
 
