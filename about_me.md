@@ -4,12 +4,6 @@ filename: about_me
 layout: default
 
 --- 
-<style>
-  img {
-    max-width: 40%;
-    height: auto;
-  }
-</style>
 
 ### About Me
 <img srcset="
