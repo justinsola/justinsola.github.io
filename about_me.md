@@ -17,7 +17,7 @@ layout: default
     ./files/edited_headshot_w1064.jpg 1064w
   " 
   align="right"
-  sizes="40vw, 800px">
+  sizes="40hw, 500px">
 On the market PhD candidate at UC Irvine’s [Criminology, Law & Society](https://cls.soceco.uci.edu/pages/phd-program) program with an emphasis in Race and Justice. I have been recognized with the 2023-24 Haynes Fellowship, the 2022-23 [National Collaborative on Gun Violence Research Award](https://www.ncgvr.org/grants/2022/assessing-the-causes-of-gun-desirability-in-america.html), the 2022-23 UC Irvine Public Impact Fellowship, and the 2018-23 Social Ecology Arnie Binder Fellowship. I do fieldwork and manage data for the [Shadow Costs](https://www.shadowcosts.com) project, which tests the impact of rehabilitation classes and monetary sanctions (funded ny NSF, NIJ, RSF, and Haynes grants). I am also a member of the [Irvine Laboratory for the Study of Space and Crime](http://ilssc.soceco.uci.edu/).
 
 ### Service
