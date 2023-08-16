@@ -16,17 +16,6 @@ layout: default
   <meta name="theme-color" content="#ffffff">
 </head>
 
-<p align="center">
-  <b>
-    <a href="./">Research</a> | 
-    <a href="./about_me">About me</a> | 
-    <a href="./files/2023.08.11_CV.pdf">CV</a> | 
-    <a href="https://orcid.org/0000-0002-0955-1031">ORCID</a> | 
-    <a href="mailto:justin.sola@uci.edu">justin.sola@uci.edu</a>
-  </b>
-  <br>
-</p>
-
 I research gun ownership and how the criminal justice system interacts with inequality. I use preregistered experiments (forced-choice conjoint and vignette), longitudinal designs (smartphone-delivered surveys), semi-structured interviews, participant observation, and content analysis techniques like topic modeling.
 
 My active projects include:
