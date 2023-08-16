@@ -14,7 +14,7 @@ footer_text: >
 keywords: research, research website, justin lucas sola, sola, justin sola, gun ownership, guns, inequality, sociology, criminology, experimental methods, neoliberalism # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://justinsola.github.com # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -326,7 +326,7 @@ external_links:
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
