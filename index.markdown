@@ -19,7 +19,7 @@ layout: default
 I research gun ownership and how the criminal justice system interacts with inequality. I use preregistered experiments (forced-choice conjoint and vignette), longitudinal designs (smartphone-delivered surveys), semi-structured interviews, participant observation, and content analysis techniques like topic modeling. I teach people how to critically analyze crime policy (<a href="./files/Fall_2022_C126_Syllabus.pdf">syllabus</a>).
 
 My active projects include:
-1.  Reconsidering causal theories of neoliberalism - <b><a href="[./files/Fall_2022_C126_Syllabus.pdf](https://drive.google.com/file/d/1HSNVCTPmkUe2eA42aSUmcLy3yhj5SEKH/view?usp=drive_link)">SSSP conference paper here</a></b>
+1.  Reconsidering causal theories of neoliberalism - <b><a href="https://drive.google.com/file/d/1VUUzjg-Syp3qNQ07UzEjAm9m82WqUu-T/view?usp=sharing">SSSP conference paper here</a></b>
 2.  Evaluating the [Shadow Costs](https://www.shadowcosts.com/) of treatment programs
 3.  Investigating how socioeconomic hardship affects desire for guns
 4.  Assessing how gun ownership affects neighborhood socialization
