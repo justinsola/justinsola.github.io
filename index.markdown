@@ -25,7 +25,7 @@ My active projects include:
 4.  Assessing how gun ownership affects neighborhood socialization
 
 ## Recent publications
-- <a href="https://doi.org/10.1007/s11292-023-09571-z">**Sola, Justin L.** and Charis E. Kubrin.</a> 2023. "Making the Call: How Does Perceived Race Affect Desire to Call the Police?" *Experimental Criminology* (Online First). _This paper received the 2023 American Society for Criminology Experimental Division Student Paper Award_
+- <a href="https://doi.org/10.1007/s11292-023-09571-z">**Sola, Justin L.** and Charis E. Kubrin.</a> 2023. "Making the Call: How Does Perceived Race Affect Desire to Call the Police?" *Experimental Criminology* (Online First). _This paper received the 2023 American Society of Criminology Experimental Division Student Paper Award_
 
 - <a href="https://doi.org/10.1177/00027162221099291">Sykes, B., …. & **Sola, J**.</a> 2022. “Barred: Labor Market Dynamics and Human Capital Development Among People on Probation and Parole.” *Annals of the American Academy of Political and Social Science* (Volume 701 Issue 1: 28-45).
 
