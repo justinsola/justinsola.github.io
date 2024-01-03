@@ -19,10 +19,12 @@ layout: default
 I research gun ownership and how the criminal justice system interacts with inequality. I use preregistered experiments (forced-choice conjoint and vignette), machine learning, longitudinal designs (smartphone-delivered surveys), semi-structured interviews, participant observation, and topic modeling. I teach methods and how to critically analyze crime policy (<b><a href="./files/Fall_2022_C126_Syllabus.pdf">syllabus</a></b>).
 
 My active projects include:
-1.  Reconsidering causal theories of neoliberalism - <b><a href="https://drive.google.com/file/d/1VUUzjg-Syp3qNQ07UzEjAm9m82WqUu-T/view?usp=sharing">SSSP conference paper here</a></b> - _Received the 2023 Society for the Study of Social Problems Theory Division Student Paper Award_
-2.  Evaluating the [Shadow Costs](https://www.shadowcosts.com/) of treatment programs
-3.  Investigating how socioeconomic hardship affects desire for guns
-4.  Assessing how gun ownership affects neighborhood socialization
+1.  Reconsidering causal theories of neoliberalism - <b><a href="https://drive.google.com/file/d/1VUUzjg-Syp3qNQ07UzEjAm9m82WqUu-T/view?usp=sharing">SSSP conference paper here</a></b> - Received the:
+    _ 2023 Society for the Study of Social Problems Theory Division Student Paper Award_
+    _ 2024 Western Society of Criminology Miki Vohryzek-Bolden Student Paper Competition _
+3.  Evaluating the [Shadow Costs](https://www.shadowcosts.com/) of treatment programs
+4.  Investigating how socioeconomic hardship affects desire for guns
+5.  Assessing how gun ownership affects neighborhood socialization
 
 ## Recent publications
 - <a href="https://doi.org/10.1007/s11292-023-09571-z">**Sola, Justin L.** and Charis E. Kubrin.</a> 2023. "Making the Call: How Does Perceived Race Affect Desire to Call the Police?" *Experimental Criminology* (Online First). _Received the 2023 American Society of Criminology Experimental Division Student Paper Award_
