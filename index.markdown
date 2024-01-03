@@ -20,8 +20,8 @@ I research gun ownership and how the criminal justice system interacts with ineq
 
 My active projects include:
 1.  Reconsidering causal theories of neoliberalism - <b><a href="https://drive.google.com/file/d/1VUUzjg-Syp3qNQ07UzEjAm9m82WqUu-T/view?usp=sharing">SSSP conference paper here</a></b> - Received the:
-    _ 2023 Society for the Study of Social Problems Theory Division Student Paper Award_
-    _ 2024 Western Society of Criminology Miki Vohryzek-Bolden Student Paper Competition _
+    _2023 Society for the Study of Social Problems Theory Division Student Paper Award_
+    _2024 Western Society of Criminology Miki Vohryzek-Bolden Student Paper Competition_
 3.  Evaluating the [Shadow Costs](https://www.shadowcosts.com/) of treatment programs
 4.  Investigating how socioeconomic hardship affects desire for guns
 5.  Assessing how gun ownership affects neighborhood socialization
