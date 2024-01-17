@@ -3,6 +3,6 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 - jekyll-seo-tag
 title: Justin Lucas Sola
-description: Criminology, Law & Society PhD Candidate
+description: UNC-Chapel Hill Assistant Professor (Starting Fall 2024)
 google_analytics: G-CMW3H6D7HX
 show_downloads: false
