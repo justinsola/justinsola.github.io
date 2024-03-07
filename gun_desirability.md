@@ -6,7 +6,7 @@ layout: default
 --- 
 ### Gun Desirability
 
-I developed and validated this measure in a large national survey experiment -- *Transmitting Desire* [(Sola 2021)](https://doi.org/10.1177/07311214211007179). As discussed in that article and later research, there are many advantages to capturing gradations of desire for guns rather than measuring past behavior (e.g. gun ownership) or asking what a participant will do (e.g. measures of intent). It is easy to implement via Qualtrics - see the instruction below:
+There are many advantages to capturing gradations of desire for guns rather than measuring past behavior (e.g. gun ownership) or asking what a participant will do (e.g. measures of intent). I developed and validated an index measure of gun desirability through a large national survey experiment: *Transmitting Desire* [(Sola 2021)](https://doi.org/10.1177/07311214211007179). If you use the measure, please cite it! Implementing in Qualtrics takes only a few minutes:
 
 ## Question formatting and HTML code
 
@@ -53,8 +53,6 @@ Qualtrics.SurveyEngine.addOnUnload(function()
 ## End result
 
 When participants encoutner the question, there should be no default value (aka anchor point). After clocking on the slider, a handle appears to mark the value selected along the interval. See an example below:
-<img srcset="
-    ./files/hunting_rifle_example.png 1177w
-  " 
+<img src="./files/hunting_rifle_example.png 1177w" 
   align="center"
   style="max-width:1177px;width:76%;height:auto;padding:8px">
