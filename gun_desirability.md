@@ -52,5 +52,5 @@ Qualtrics.SurveyEngine.addOnUnload(function()
 
 When participants encoutner the question, there should be no default value (aka anchor point). After clocking on the slider, a handle appears to mark the value selected along the interval. See an example below:
 <p align="center">
-<img align="center" src="./files/hunting_rifle_example.png" width="80%">
+<img align="center" src="./files/hunting_rifle_example.png" width="90%">
 </p>
