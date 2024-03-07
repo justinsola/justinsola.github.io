@@ -10,23 +10,21 @@ There are advantages to capturing gradations of desire for guns rather than meas
 
 ### 1) Question formatting and HTML code
 
-Gun desirability is an index of three intervals measures: pistol desirability, AR-15 desirability, and hunting rifle desirability. The three questions are presented on the same page with random ordering. Each question prompts the participant to click and drag a horizontal sliding scale from 'No Desire' (lefthand side, internally recorded as 0) to 'Most Desire' (righthand side, internally recorded as 100).
+Gun desirability is an index of pistol desirability, AR-15 desirability, and hunting rifle desirability. These questions are presented in random order on the same page. Each features a horizontal sliding scale with an interval from 'No Desire' (internally recorded as 0) to 'Most Desire' (internally recorded as 100). Appropriate label size depends on the formatting of the rest of your survey - I use 12-point font.
 
-No value is shown to the participant, a response is 'requested' rather than 'forced', and the mobile-friendly option is checked.
-
-For the [hunting rifle image](./files/hunting_rifle.png) I use 75% of screen width (the code below reflects this). For the [AR-15 image](./files/ar-15.png) I use 70% width, with 40% for the [pistol image](./files/pistol.png). Edit the following question HTML to suit 1) the source image address and 2) relative width:
+For the [hunting rifle image](./files/hunting_rifle.png) I use 75% of screen width. For the [AR-15 image](./files/ar-15.png) I use 70% width, with 40% for the [pistol image](./files/pistol.png). Edit the following question HTML to suit 1) the source image address and 2) the appropriate relative width:
 ```
 Take a look at the gun below:
-<div style="text-align: center;"><img src="[ADDRESS OF IMAGE SOURCE]" style="width:75%;" /></div>
+<div style="text-align: center;"><img src="[IMAGE SOURCE ADDRESS]" style="width:[RELATIVE WIDTH]%;" /></div>
 <br />
 Use the slider to show how desirable this gun is to you:
 ```
 
-The appropriate font size on the labels ('No Desire' at the left, 'Most Desire' at the right) depends on the formatting of the rest of your survey - I use 12-point font.
+Other options: no value is shown to the participant, a response is 'requested' rather than 'forced', and the mobile-friendly option is checked.
 
 ### 2) JavaScript code
 
-I use the following JavaScript code for each question. Just copy-paste:
+I use Javascript to disable an initial anchor point on the slider. Replace the JavaScript section (see [here](https://www.qualtrics.com/support/survey-platform/survey-module/question-options/add-javascript/)) of each question with the following:
 ```
 /* hides slider 'handle' until participants clicks 
 Qualtrics.SurveyEngine.addOnload(function()
