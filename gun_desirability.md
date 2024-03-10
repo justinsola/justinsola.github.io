@@ -12,7 +12,9 @@ There are advantages to capturing gradations of desire for guns rather than meas
 
 Gun desirability is an index of pistol desirability, AR-15 desirability, and hunting rifle desirability. These questions are presented in random order on the same page. Each features a horizontal sliding scale with an interval from 'No Desire' (internally recorded as 0) to 'Most Desire' (internally recorded as 100). Appropriate label size depends on the formatting of the rest of your survey - I use 12-point font.
 
-For the [hunting rifle image](./files/hunting_rifle.png) I use 75% of screen width. For the [AR-15 image](./files/ar-15.png) I use 70% width, with 40% for the [pistol image](./files/pistol.png). Edit the following question HTML to suit 1) the source image address and 2) the appropriate relative width:
+For the [hunting rifle image](./files/hunting_rifle.png) I use 75% of screen width. For the [AR-15 image](./files/ar-15.png) I use 70% width, with 40% for the [pistol image](./files/pistol.png). [Here is a zip file](./files/gun_desirability_prompts.zip) containing all three prompts.
+
+Edit the following question HTML to suit 1) the image address once you have uploaded it to Qualtrics and 2) the appropriate relative width for the prompt in question:
 ```
 Take a look at the gun below:
 <div style="text-align: center;"><img src="[IMAGE SOURCE ADDRESS]" style="width:[RELATIVE WIDTH]%;" /></div>
