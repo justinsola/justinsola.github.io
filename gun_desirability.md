@@ -10,9 +10,9 @@ I developed and validated an index measure of gun desirability through a large n
 
 ### 1) Question formatting and HTML code
 
-Gun desirability is an index of pistol desirability, AR-15 desirability, and hunting rifle desirability. These questions are presented in random order on the same page. Each features a horizontal sliding scale with an interval from 'No Desire' (internally recorded as 0) to 'Most Desire' (internally recorded as 100). Appropriate label size depends on the formatting of the rest of your survey - I use 12-point font.
+Gun desirability is an index of pistol, AR-15, and hunting rifle desirability questions. These questions together in random order. Each features a horizontal sliding scale with an interval from 'No Desire' (internally recorded as 0) to 'Most Desire' (internally recorded as 100). I use 12-point font for these labels, but appropriate size depends on the rest of your survey.
 
-For the [hunting rifle](./files/hunting_rifle.png) prompt I use 75% of screen width. For the [AR-15](./files/ar-15.png) prompt I use 70% width, with 40% for the [pistol](./files/pistol.png) prompt. Here is a [zip file](./files/gun_desirability_prompts.zip) containing all three prompt images.
+For the [hunting rifle](./files/hunting_rifle.png) image I use 75% of screen width. For the [AR-15](./files/ar-15.png) image I use 70% width, with 40% for the [pistol](./files/pistol.png) image. Here is a [zip file](./files/gun_desirability_prompts.zip) containing all three prompt images.
 
 Edit the following question HTML to suit 1) the image address once you have uploaded it to Qualtrics and 2) the appropriate relative width for the prompt in question:
 ```
@@ -22,7 +22,7 @@ Take a look at the gun below:
 Use the slider to show how desirable this gun is to you:
 ```
 
-Other options: no value is shown to the participant, a response is 'requested' rather than 'forced', and the mobile-friendly option is checked.
+Other Qualtrics options: no value is shown to the participant, a response is 'requested' rather than 'forced', and the 'mobile-friendly' option is checked.
 
 ### 2) JavaScript code
 
