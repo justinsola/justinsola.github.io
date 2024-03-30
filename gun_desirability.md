@@ -6,7 +6,7 @@ layout: default
 --- 
 ## Gun Desirability
 
-There are advantages to capturing gradations of desire for guns rather than measuring past behavior (e.g. gun ownership) or asking what a participant will do (e.g. measures of intent). I developed and validated an index measure of gun desirability through a large national survey experiment: *Transmitting Desire* [(Sola 2021)](https://doi.org/10.1177/07311214211007179). You can implement it in Qualtrics quickly:
+I developed and validated an index measure of gun desirability through a large national survey experiment: *Transmitting Desire* [(Sola 2021)](https://doi.org/10.1177/07311214211007179). It has several advantages versus measure of past behavior (e.g. gun ownership) and measures of purchase intent (e.g. New Years' resolutions). You can implement it in Qualtrics quickly:
 
 ### 1) Question formatting and HTML code
 
