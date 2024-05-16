@@ -1,5 +1,5 @@
 ---
-title: Justin Lucas Sola
+title: Dr. Justin Lucas Sola
 filename: about_me
 layout: default
 
