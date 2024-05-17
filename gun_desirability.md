@@ -1,5 +1,5 @@
 ---
-title: Dr. Justin Lucas Sola
+title: Justin Lucas Sola, PhD
 filename: gun_desirability
 layout: default
 
