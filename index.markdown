@@ -1,5 +1,5 @@
 ---
-title: Dr. Justin Lucas Sola
+title: Justin Lucas Sola, PhD
 filename: research
 layout: default
 
@@ -16,7 +16,7 @@ layout: default
   <meta name="theme-color" content="#ffffff">
 </head>
 
-I am an incoming assistant professor at UNC-Chapel Hill, jointly appointed in [Sociology](https://sociology.unc.edu/) and the [School of Data Science and Society](https://datascience.unc.edu/).
+Assistant professor at UNC-Chapel Hill (Fall '24), jointly appointed in [Sociology](https://sociology.unc.edu/) and the [School of Data Science and Society](https://datascience.unc.edu/).
 
 I research gun ownership and how the criminal justice system interacts with inequality. I use preregistered experiments (forced-choice conjoint and vignette), machine learning, longitudinal designs (smartphone-delivered surveys), semi-structured interviews, participant observation, and topic modeling. I teach methods and how to critically analyze crime policy (<b><a href="./files/Fall_2022_C126_Syllabus.pdf">syllabus</a></b>).
 
