@@ -16,6 +16,16 @@ Assistant professor at UNC-Chapel Hill (Fall '24), jointly appointed in [Sociolo
 
 In 2024 I received a PhD from UC Irvine in [Criminology, Law & Society](https://cls.soceco.uci.edu/pages/phd-program) with an emphasis in Race and Justice. I have been recognized with the 2023-24 Haynes Fellowship, the 2022-23 [National Collaborative on Gun Violence Research Award](https://www.ncgvr.org/grants/2022/assessing-the-causes-of-gun-desirability-in-america.html), the 2022-23 UC Irvine Public Impact Fellowship, and the 2018-23 Social Ecology Arnie Binder Fellowship. I do fieldwork and manage data for the [Shadow Costs](https://www.shadowcosts.com) project, which tests the impact of rehabilitation classes and monetary sanctions (funded by NSF, NIJ, RSF, and Haynes grants). I am also a member of the [Irvine Laboratory for the Study of Space and Crime](http://ilssc.soceco.uci.edu/). My papers have won awards from the American Society of Criminology, the Society for the Study of Social Problems, and the Western Society of Criminology.
 
+My active projects include:
+1.  Reconsidering causal theories of neoliberalism - <b><a href="https://drive.google.com/file/d/1VUUzjg-Syp3qNQ07UzEjAm9m82WqUu-T/view?usp=sharing">SSSP conference paper here</a></b>
+
+    _2023 Society for the Study of Social Problems Theory Division Student Paper Award_
+
+    _2024 Western Society of Criminology Miki Vohryzek-Bolden Student Paper Competition_
+2.  Evaluating the [Shadow Costs](https://www.shadowcosts.com/) of treatment programs
+3.  Investigating how socioeconomic hardship affects desire for guns
+4.  Assessing how gun ownership affects neighborhood socialization
+
 ### Service
 In my professional service I review for [the American Sociological Review and Criminology](https://orcid.org/0000-0002-0955-1031), and have served as an Editorial Assistant for Sociological Perspectives. My service to UC Irvine includes work as a Peer Mentor and Graduate Representative for the Criminology, Law & Society department, and as a Graduate Representative to the School of Social Ecology. In my service to the community, I provide statistics tutoring for inmates at California State Prison Solano, consult with the American Civil Liberties Union (ACLU), and work with the Federal Defenders of the 1st Circuit.
 
