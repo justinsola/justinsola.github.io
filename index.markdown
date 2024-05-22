@@ -18,17 +18,7 @@ layout: default
 
 Assistant professor at UNC-Chapel Hill (Fall '24), jointly appointed in [Sociology](https://sociology.unc.edu/) and the [School of Data Science and Society](https://datascience.unc.edu/).
 
-I research gun ownership and how the criminal justice system interacts with inequality. I use preregistered experiments (forced-choice conjoint and vignette), machine learning, longitudinal designs (smartphone-delivered surveys), semi-structured interviews, participant observation, and topic modeling. I teach methods and how to critically analyze crime policy (<b><a href="./files/Fall_2022_C126_Syllabus.pdf">syllabus</a></b>).
-
-My active projects include:
-1.  Reconsidering causal theories of neoliberalism - <b><a href="https://drive.google.com/file/d/1VUUzjg-Syp3qNQ07UzEjAm9m82WqUu-T/view?usp=sharing">SSSP conference paper here</a></b>
-
-    _2023 Society for the Study of Social Problems Theory Division Student Paper Award_
-
-    _2024 Western Society of Criminology Miki Vohryzek-Bolden Student Paper Competition_
-3.  Evaluating the [Shadow Costs](https://www.shadowcosts.com/) of treatment programs
-4.  Investigating how socioeconomic hardship affects desire for guns
-5.  Assessing how gun ownership affects neighborhood socialization
+I research gun ownership and how the criminal justice system interacts with inequality. I use preregistered experiments (forced-choice conjoint and vignette), machine learning, longitudinal designs (smartphone-delivered surveys), semi-structured interviews, participant observation, and topic modeling. I teach methods, sociology, and how to critically analyze crime policy.
 
 ## Recent publications
 - <a href="https://doi.org/10.1073/pnas.2311825121">**Sola, Justin L.** and Justin T. Pickett.</a> 2024. "Widespread, bipartisan aversion exists to neighbors owning AR-15s or storing guns insecurely." *Proceedings of the National Academy of Sciences* 121 (16) e2311825121.
