@@ -12,7 +12,7 @@ layout: default
   " 
   align="right"
   style="max-width:1000px;width:40%;height:auto;padding:8px">
-Assistant professor at UNC-Chapel Hill jointly appointed in [Sociology]([https://sociology.unc.edu/](https://sociology.unc.edu/people-page/justin-sola/)) and the [School of Data Science and Society]([https://datascience.unc.edu/](https://datascience.unc.edu/person/justin-sola/)).
+Assistant professor at UNC-Chapel Hill jointly appointed in [Sociology]([https://sociology.unc.edu/](https://sociology.unc.edu/people-page/justin-sola/) and the [School of Data Science and Society]([https://datascience.unc.edu/](https://datascience.unc.edu/person/justin-sola/).
 
 In 2024 I received a PhD from UC Irvine in [Criminology, Law & Society](https://cls.soceco.uci.edu/pages/phd-program) with an emphasis in Race and Justice. I have been recognized with the 2023-24 Haynes Fellowship, the 2022-23 [National Collaborative on Gun Violence Research Award](https://www.ncgvr.org/grants/2022/assessing-the-causes-of-gun-desirability-in-america.html), the 2022-23 UC Irvine Public Impact Fellowship, and the 2018-23 Social Ecology Arnie Binder Fellowship. I do fieldwork and manage data for the [Shadow Costs](https://www.shadowcosts.com) project, which tests the impact of rehabilitation classes and monetary sanctions (funded by NSF, NIJ, RSF, and Haynes grants). I am also a member of the [Irvine Laboratory for the Study of Space and Crime](http://ilssc.soceco.uci.edu/). My papers have won awards from the American Society of Criminology, the Society for the Study of Social Problems, and the Western Society of Criminology.
 
