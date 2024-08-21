@@ -10,7 +10,7 @@ I developed and validated an index measure of gun desirability through a large n
 
 ### 1) Question formatting and HTML code
 
-Gun desirability is an index of pistol, AR-15, and hunting rifle desirability questions. These questions together in random order. Each features a horizontal sliding scale with an interval from 'No Desire' (internally recorded as 0) to 'Most Desire' (internally recorded as 100). I use 12-point font for these labels, but appropriate size depends on the rest of your survey.
+Gun desirability is an index of pistol, AR-15, and hunting rifle desirability questions. These questions are displayed in random order. Each features a horizontal sliding scale with an interval from 'No Desire' (internally recorded as 0) to 'Most Desire' (internally recorded as 100). I use 12-point font for these labels, but appropriate size depends on the rest of your survey.
 
 For the [hunting rifle](./files/hunting_rifle.png) image I use 75% of screen width. For the [AR-15](./files/ar-15.png) image I use 70% width, with 40% for the [pistol](./files/pistol.png) image. Here is a [zip file](./files/gun_desirability_prompts.zip) containing all three prompt images.
 
