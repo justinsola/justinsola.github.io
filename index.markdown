@@ -21,6 +21,10 @@ Assistant professor at UNC-Chapel Hill jointly appointed in [Sociology](https://
 I research gun ownership and how the criminal justice system interacts with inequality. I use preregistered experiments (forced-choice conjoint and vignette), machine learning, longitudinal designs (smartphone-delivered surveys), semi-structured interviews, participant observation, and topic modeling. I teach methods, sociology, and how to critically analyze crime policy.
 
 ## Recent publications
+- **Justin L. Sola** and Tara D. Warner. 2024 *(proofing)*. "Firearms, Families, and Financial Distress: Economic Instability and Increased Gun Desire." *Social Science Quarterly*.
+
+- Simon A. Cole and **Justin L. Sola**. 2024 *(proofing)*. "First Impressions Matter: Mundane Obstacles to a Forensic Device for Probabilistic Reporting in Fingerprint Analysis." *Social Studies of Science*.
+
 - <a href="https://doi.org/10.1177/23780231241280014">Justin T. Pickett, **Justin L. Sola**, and Shawn D. Bushway.</a> 2024. "Partisan Differences in Hiring and Social Discrimination against Nonbinary Americans." *Socius* (Volume 10: 1–5).
 
 - <a href="https://doi.org/10.1073/pnas.2311825121">**Justin L. Sola** and Justin T. Pickett.</a> 2024. "Widespread, bipartisan aversion exists to neighbors owning AR-15s or storing guns insecurely." *Proceedings of the National Academy of Sciences* 121 (16) e2311825121.
