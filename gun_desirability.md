@@ -28,25 +28,14 @@ Other Qualtrics options: no value is shown to the participant, a response is 're
 
 I use Javascript to disable an initial anchor point on the slider. Replace the JavaScript section (see [here](https://www.qualtrics.com/support/survey-platform/survey-module/question-options/add-javascript/)) of each question with the following:
 ```
-/* hides slider 'handle' until participants clicks 
+/* hides slider 'handle' until participant clicks */
 Qualtrics.SurveyEngine.addOnload(function()
 {
-	var q = jQuery("#"+this.questionId);
-	q.find(".handle").css('visibility', 'hidden');
-	q.find(".track").on("click , touchstart", function() {
-	jQuery(this).find(".handle").css('visibility', 'visible');
-});
-
-/* 1st default block
-Qualtrics.SurveyEngine.addOnReady(function()
-{
-	/*Place your JavaScript here to run when the page is fully displayed*/
-});
-
-/* 2nd default block
-Qualtrics.SurveyEngine.addOnUnload(function()
-{
-	/*Place your JavaScript here to run when the page is unloaded*/
+    var q = jQuery("#"+this.questionId);
+    q.find(".handle").css('visibility', 'hidden');
+    q.find(".track").on("click touchstart", function() {
+        jQuery(this).find(".handle").css('visibility', 'visible');
+    });
 });
 ```
 
