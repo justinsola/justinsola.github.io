@@ -21,6 +21,8 @@ Assistant professor at UNC-Chapel Hill jointly appointed in [Sociology](https://
 I research gun ownership and how the criminal justice system interacts with inequality. I use preregistered experiments (forced-choice conjoint and vignette), machine learning, longitudinal designs (smartphone-delivered surveys), semi-structured interviews, participant observation, and topic modeling. I teach methods, sociology, and how to critically analyze crime policy.
 
 ## Recent publications
+- <a href="https://doi.org/10.1126/sciadv.adu1262">**Justin L. Sola**.</a> 2024. "Pathways to concealed gun carrying." *Science Advances* (Vol 10, Issue 49) Focus Article for <a href="https://doi.org/10.1126/sciadv.adp8915">Lanfear et al. 2024</a>
+
 - <a href="https://doi.org/10.1111/ssqu.13462">**Justin L. Sola** and Tara D. Warner.</a> 2024. "Firearms, Families, and Financial Distress: Economic Instability and Increased Gun Desire." *Social Science Quarterly* (Online First).
 
 - Simon A. Cole and **Justin L. Sola**. 2024 *(proofing)*. "First Impressions Matter: Mundane Obstacles to a Forensic Device for Probabilistic Reporting in Fingerprint Analysis." *Social Studies of Science*.
