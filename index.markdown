@@ -18,7 +18,7 @@ layout: default
 
 UNC-Chapel Hill Assistant professor in [Sociology](https://sociology.unc.edu/people-page/justin-sola/) and the [School of Data Science and Society](https://datascience.unc.edu/person/justin-sola/).
 
-I research gun ownership and how the criminal justice system interacts with inequality. I use experiments, pre-registration, machine learning, longitudinal designs, semi-structured interviews, participant observation, and topic modeling. I teach sociology, computational social science, ethics in machine learning, and criminology.
+I research how people experience neighborhoods, the criminal justice system, gun ownership, and inequality. I use experiments, pre-registration, machine learning, longitudinal designs, semi-structured interviews, participant observation, and topic modeling. I teach sociology, computational social science, ethics in machine learning, and criminology.
 
 ## Recent publications
 - <a href="https://doi.org/10.1126/sciadv.adu1262">**Justin L. Sola**.</a> 2024. "Pathways to concealed gun carrying." *Science Advances* (Vol 10, Issue 49) Focus Article for <a href="https://doi.org/10.1126/sciadv.adp8915">Lanfear et al. 2024</a>
