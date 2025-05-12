@@ -27,8 +27,6 @@ I research how people experience neighborhoods, the criminal justice system, gun
 
 - <a href="https://doi.org/10.1111/ssqu.13462">**Justin L. Sola** and Tara D. Warner.</a> 2024. "Firearms, Families, and Financial Distress: Economic Instability and Increased Gun Desire." *Social Science Quarterly* (Online First).
 
-- Simon A. Cole and **Justin L. Sola**. 2024 *(proofing)*. "First Impressions Matter: Mundane Obstacles to a Forensic Device for Probabilistic Reporting in Fingerprint Analysis." *Social Studies of Science*.
-
 - <a href="https://doi.org/10.1177/23780231241280014">Justin T. Pickett, **Justin L. Sola**, and Shawn D. Bushway.</a> 2024. "Partisan Differences in Hiring and Social Discrimination against Nonbinary Americans." *Socius* (Volume 10: 1–5).
 
 - <a href="https://doi.org/10.1073/pnas.2311825121">**Justin L. Sola** and Justin T. Pickett.</a> 2024. "Widespread, bipartisan aversion exists to neighbors owning AR-15s or storing guns insecurely." *Proceedings of the National Academy of Sciences* 121 (16) e2311825121.
