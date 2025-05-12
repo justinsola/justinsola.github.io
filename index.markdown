@@ -21,7 +21,7 @@ UNC-Chapel Hill Assistant professor in [Sociology](https://sociology.unc.edu/peo
 I research how people experience neighborhoods, the criminal justice system, gun ownership, and inequality. I use experiments, machine learning, longitudinal designs, interviews, and observations. I teach sociology, computational social science, criminology, and ethics in machine learning.
 
 ## Recent publications
-- <a href="https://doi.org/10.1177/03063127251333074">Simon A. Cole and Justin L. Sola.</a> 2025. "First Impressions Matter: Mundane Obstacles to a Forensic Device for Probabilistic Reporting in Fingerprint Analysis." Social Studies of Science (Online First).
+- <a href="https://doi.org/10.1177/03063127251333074">Simon A. Cole and **Justin L. Sola**.</a> 2025. "First Impressions Matter: Mundane Obstacles to a Forensic Device for Probabilistic Reporting in Fingerprint Analysis." Social Studies of Science (Online First).
 
 - <a href="https://doi.org/10.1126/sciadv.adu1262">**Justin L. Sola**.</a> 2024. "Pathways to concealed gun carrying." *Science Advances* (Vol 10, Issue 49) Focus Article for <a href="https://doi.org/10.1126/sciadv.adp8915">Lanfear et al. 2024</a>
 
