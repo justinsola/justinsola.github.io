@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Neighborhood Grid Question Editor</title>
+    <title>Grid Tool (Beta)</title>
     <style>
       /* styles shared with the outputted HTML for qualtrics */
       /* Grid Styles */
@@ -206,18 +206,18 @@
         <div class="section">
           Export:
           <button onclick="copyQualtricsHTML()">
-            Copy Qualtrics HTML to Clipboard
+            Copy Qualtrics HTML
           </button>
           <button onclick="copyQualtricsJS()">
-            Copy Qualtrics Javascript to Clipboard
+            Copy Qualtrics Javascript
           </button>
         </div>
         <div class="section">
           Save and load progress:
-          <button onclick="downloadInputs()">Save Inputs to File</button>
+          <button onclick="downloadInputs()">Save to file</button>
 
           <!-- Button to trigger file input -->
-          <button onclick="triggerFileInput()">Upload Inputs from File</button>
+          <button onclick="triggerFileInput()">Load from file</button>
 
           <!-- Hidden file input -->
           <input
@@ -258,7 +258,7 @@
             placeholder="Enter a number"
           />
           <label for="dropdownOptionsInput" class="required">
-            Dropdown options for each house (comma separated)</label
+            Cell dropdown options (comma-separated)</label
           >
           <input
             type="text"
@@ -266,7 +266,7 @@
             class="input-field"
             placeholder="E.g., Dwarves, Elves, Hobbits"
           />
-          <label for="centerHouseTextInput"> Label for center house</label>
+          <label for="centerHouseTextInput"> Center cell Label</label>
           <input
             type="text"
             id="centerHouseTextInput"
@@ -274,7 +274,7 @@
             placeholder="Default: Your House"
           />
 
-          <label>Experiment Design:</label>
+          <label>Design:</label>
           <label
             ><input
               type="radio"
@@ -282,7 +282,7 @@
               name="experiment_design"
               value="blank_neighborhood"
               checked
-            />Blank Neighborhood</label
+            />Survey</label
           >
           <label
             ><input
@@ -290,11 +290,11 @@
               id="experimentalDesignSelector"
               name="experiment_design"
               value="experimental_scenarios"
-            />Experimental Scenarios</label
+            />Survey Experiment</label
           >
           <div id="experimentalScenariosContent" style="display: none">
             <label for="experimentalTraits" class="required">
-              Experimental pre-assigned traits (comma-separated)</label
+              Pre-assigned traits (comma-separated)</label
             >
             <input
               type="text"
@@ -308,7 +308,7 @@
             <div id="experimentalProportions">
               <div id="scenarios-container"></div>
               <button type="button" onclick="addScenario()">
-                + Add Scenario
+                + Scenario
               </button>
             </div>
 
@@ -342,7 +342,7 @@
                   min="0"
                 />
                 <button type="button" onclick="removeScenario(this)">
-                  Remove
+                  X
                 </button>
               </div>
             </template>
@@ -350,7 +350,7 @@
         </div>
         <div class="section" style="color: #505050; font-size: 0.8rem">
           <br />Please cite:<br />
-          Sola, Justin, and Samuel Filmeyer. 2025. Who Goes Where? Grid-Based
+          Sola, Justin, and Samuel Filmeyer. 2025. Who Goes Where? Grid
           Experimental Tool (Beta) [Computer software]. Chapel Hill, NC:
           Department of Sociology & School of Data Science and Society,
           University of North Carolina at Chapel Hill.
