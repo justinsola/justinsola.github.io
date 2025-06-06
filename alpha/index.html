@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Neighborhood Grid Question Editor</title>
+    <title>Grid Question Editor</title>
     <style>
       /* styles shared with the outputted HTML for qualtrics */
       /* Grid Styles */
@@ -194,7 +194,7 @@
     </style>
   </head>
   <body>
-    <h1>Neighborhood Grid Question Editor</h1>
+    <h1>Grid Question Editor</h1>
 
     <!-- Editor Container for side-by-side layout -->
     <div class="editor-container">
@@ -206,15 +206,15 @@
             Copy Qualtrics HTML to Clipboard
           </button>
           <button onclick="copyQualtricsJS()">
-            Copy Qualtrics Javascript to Clipboard
+            Copy Qualtrics Javascript
           </button>
         </div>
         <div class="section">
           Save and load progress:
-          <button onclick="downloadInputs()">Save Inputs to File</button>
+          <button onclick="downloadInputs()">Save</button>
 
           <!-- Button to trigger file input -->
-          <button onclick="triggerFileInput()">Upload Inputs from File</button>
+          <button onclick="triggerFileInput()">Load</button>
 
           <!-- Hidden file input -->
           <input
@@ -234,7 +234,7 @@
             rows="4"
             cols="50"
           ></textarea>
-          <label for="columnInput" class="required"> Number of columns</label>
+          <label for="columnInput" class="required"> # of columns</label>
           <input
             type="number"
             id="columnInput"
@@ -244,7 +244,7 @@
             step="1"
             placeholder="Enter a number"
           />
-          <label for="rowInput" class="required">Number of rows</label>
+          <label for="rowInput" class="required"># of rows</label>
           <input
             type="number"
             id="rowInput"
@@ -255,7 +255,7 @@
             placeholder="Enter a number"
           />
           <label for="dropdownOptionsInput" class="required">
-            Dropdown options for each house (comma separated)</label
+            Dropdown options (comma separated)</label
           >
           <input
             type="text"
@@ -263,7 +263,7 @@
             class="input-field"
             placeholder="E.g., Dwarves, Elves, Hobbits"
           />
-          <label for="centerHouseTextInput"> Label for center house</label>
+          <label for="centerHouseTextInput"> Center house label</label>
           <input
             type="text"
             id="centerHouseTextInput"
@@ -271,7 +271,7 @@
             placeholder="Default: Your House"
           />
 
-          <label>Experiment Design:</label>
+          <label>Design:</label>
           <label
             ><input
               type="radio"
@@ -279,7 +279,7 @@
               name="experiment_design"
               value="blank_neighborhood"
               checked
-            />Blank Neighborhood</label
+            />Survey</label
           >
           <label
             ><input
@@ -287,11 +287,11 @@
               id="experimentalDesignSelector"
               name="experiment_design"
               value="experimental_scenarios"
-            />Experimental Scenarios</label
+            />Experimental</label
           >
           <div id="experimentalScenariosContent" style="display: none">
             <label for="experimentalTraits" class="required">
-              Experimental pre-assigned traits (comma-separated)</label
+              Experimental traits (comma-separated)</label
             >
             <input
               type="text"
@@ -305,7 +305,7 @@
             <div id="experimentalProportions">
               <div id="scenarios-container"></div>
               <button type="button" onclick="addScenario()">
-                + Add Scenario
+                + Scenario
               </button>
             </div>
 
