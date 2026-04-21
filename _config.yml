@@ -1,8 +1,29 @@
-remote_theme: pages-themes/cayman@v0.2.0
+title: "Justin Lucas Sola, PhD"
+description: "Personal site of Justin Lucas Sola — Assistant Professor at UNC–Chapel Hill, jointly appointed in Sociology and the School of Data Science and Society."
+author: "Justin Lucas Sola"
+url: "https://jlsola.com"
+lang: en-US
+
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-- jekyll-seo-tag
-title: Justin Lucas Sola
-description: UNC-Chapel Hill Assistant Professor of Sociology & Data Science
-google_analytics: G-CMW3H6D7HX
-show_downloads: false
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - readme.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - project
+  - chats
+  - html_code.html
+  - JLSola Design System.zip
+  - EDITING.md
+  - .DS_Store
+  - "**/.DS_Store"
+
+keep_files:
+  - files
