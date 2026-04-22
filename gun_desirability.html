@@ -1,0 +1,71 @@
+---
+layout: default
+permalink: /gun_desirability.html
+title: "Gun Desirability — Justin Lucas Sola, PhD"
+description: "Gun desirability: an index measure for surveys, validated in a national experiment. Drop-in Qualtrics recipe."
+nav: gun_desirability
+footer_note: '<a href="/">&larr; Back to research</a>'
+---
+
+  <section class="title solo">
+    <h1>Gun desirability</h1>
+    <div class="affil">An index measure for surveys, validated in a national experiment. Drop-in Qualtrics recipe below.</div>
+  </section>
+
+  <article class="prose">
+    <p>I developed and validated an index measure of gun desirability through a large national survey experiment: <em>Transmitting Desire</em> <a class="ext" href="https://doi.org/10.1177/07311214211007179">(Sola 2021)</a>. It has several advantages versus measures of past behavior (e.g. gun ownership) and measures of purchase intent (e.g. New Year&rsquo;s resolutions). You can implement it in Qualtrics quickly.</p>
+
+    <div class="step-head"><span class="num">Step 1</span><h3>Question formatting and HTML code</h3></div>
+    <p>Gun desirability is an index of <strong>pistol</strong>, <strong>AR-15</strong>, and <strong>hunting-rifle</strong> desirability questions. These questions are displayed in random order. Each features a horizontal sliding scale with an interval from <em>No Desire</em> (internally recorded as 0) to <em>Most Desire</em> (internally recorded as 100). I use 12-point font for these labels, but appropriate size depends on the rest of your survey.</p>
+
+    <div class="asset-thumbs">
+      <div class="thumb"><div class="placeholder">Pistol</div><div class="label">pistol.png</div><div class="pct">40% width</div></div>
+      <div class="thumb"><div class="placeholder">AR-15</div><div class="label">ar-15.png</div><div class="pct">70% width</div></div>
+      <div class="thumb"><div class="placeholder">Hunting rifle</div><div class="label">hunting_rifle.png</div><div class="pct">75% width</div></div>
+    </div>
+    <p style="font-size:14px;color:var(--muted)">A <a class="ext" href="{{ '/files/gun_desirability_prompts.zip' | relative_url }}">zip of all three prompt images</a> is available for download.</p>
+
+    <p>Edit the following question HTML to suit <strong>(1)</strong> the image address once you have uploaded it to Qualtrics and <strong>(2)</strong> the appropriate relative width for the prompt in question:</p>
+
+{% raw %}
+<div class="code-wrap">
+<div class="code-head"><span>question.html</span><span class="lang">HTML</span></div>
+<pre class="code"><span class="tok-c">&lt;!-- Replace [IMAGE SOURCE ADDRESS] and [RELATIVE WIDTH] --&gt;</span>
+Take a look at the gun below:
+<span class="tok-p">&lt;div</span> <span class="tok-k">style</span>=<span class="tok-s">"text-align: center;"</span><span class="tok-p">&gt;</span>
+  <span class="tok-p">&lt;img</span> <span class="tok-k">src</span>=<span class="tok-s">"[IMAGE SOURCE ADDRESS]"</span>
+       <span class="tok-k">style</span>=<span class="tok-s">"width:[RELATIVE WIDTH]%;"</span> <span class="tok-p">/&gt;</span>
+<span class="tok-p">&lt;/div&gt;</span>
+<span class="tok-p">&lt;br /&gt;</span>
+Use the slider to show how desirable this gun is to you:</pre>
+</div>
+{% endraw %}
+
+    <p>Other Qualtrics options: no value is shown to the participant, a response is <em>requested</em> rather than <em>forced</em>, and the <em>mobile-friendly</em> option is checked.</p>
+
+    <div class="step-head"><span class="num">Step 2</span><h3>JavaScript code</h3></div>
+    <p>I use JavaScript to disable an initial anchor point on the slider. Replace the <a class="ext" href="https://www.qualtrics.com/support/survey-platform/survey-module/question-options/add-javascript/">JavaScript section</a> of each question with the following:</p>
+
+{% raw %}
+<div class="code-wrap">
+<div class="code-head"><span>addOnload.js</span><span class="lang">JS</span></div>
+<pre class="code"><span class="tok-c">/* hides slider 'handle' until participant clicks */</span>
+<span class="tok-k">Qualtrics</span>.SurveyEngine.addOnload(<span class="tok-k">function</span>() {
+    <span class="tok-k">var</span> q = jQuery(<span class="tok-s">"#"</span>+<span class="tok-k">this</span>.questionId);
+    q.find(<span class="tok-s">".handle"</span>).css(<span class="tok-s">'visibility'</span>, <span class="tok-s">'hidden'</span>);
+    q.find(<span class="tok-s">".track"</span>).on(<span class="tok-s">"click touchstart"</span>, <span class="tok-k">function</span>() {
+        jQuery(<span class="tok-k">this</span>).find(<span class="tok-s">".handle"</span>).css(<span class="tok-s">'visibility'</span>, <span class="tok-s">'visible'</span>);
+    });
+});</pre>
+</div>
+{% endraw %}
+
+    <div class="step-head"><span class="num">Step 3</span><h3>End result</h3></div>
+    <p>There should be no default value (aka anchor point). After clicking on the slider, a handle appears to mark the value selected along the interval.</p>
+
+    <figure class="fig">
+      <img src="{{ '/files/hunting_rifle_example.png' | relative_url }}" alt="Slider example" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+      <div style="display:none;aspect-ratio:16/7;background:var(--navy-tint);border:1px solid var(--rule);align-items:center;justify-content:center;color:var(--navy);font-family:'Source Sans 3',sans-serif;font-size:14px;font-weight:500">Slider example image</div>
+      <figcaption>Rendered output &mdash; horizontal slider, handle invisible until first click, no default anchor. Please <a class="ext" href="https://doi.org/10.1177/07311214211007179">cite Sola 2021</a> if used in your research.</figcaption>
+    </figure>
+  </article>
