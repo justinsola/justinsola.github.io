@@ -472,6 +472,13 @@ figure.fig figcaption {
   font-weight: 500;
   margin-bottom: 10px;
 }
+.asset-thumbs .thumb img {
+  display: block;
+  width: 100%;
+  height: 110px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
 .asset-thumbs .thumb .label {
   font-family: "Source Sans 3", sans-serif;
   font-size: 12px;
