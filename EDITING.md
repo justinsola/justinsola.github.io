@@ -1,137 +1,103 @@
 # Editing jlsola.com
 
-This site is a small, hand-rolled Jekyll build hosted on GitHub Pages. No framework, no build step beyond GitHub's own — open a file in a text editor, commit, push. Wait ~60s for Pages to rebuild.
+The website is plain HTML and one CSS file, with a small shared Jekyll layout. GitHub Pages builds it automatically. You do not need to run any software to update it on GitHub.
 
-## File layout
+## Replace the CV or headshot
 
-```
-/
-├── _config.yml                  site-wide config (title, url, plugins)
-├── _layouts/
-│   └── default.html             shared chrome: head, top nav, main, footer
-├── _includes/
-│   └── google-analytics.html    GA4 tag (G-CMW3H6D7HX)
-├── assets/
-│   └── css/site.css             all styles; single source of truth
-├── index.html                   Research / publications list
-├── about.html                   About me
-├── gun_desirability.html        Methods page (Qualtrics recipe)
-├── 404.html                     Fallback
-├── favicon.svg / .ico           Icons (SVG is primary; .ico is legacy fallback)
-├── favicon-32.png               32px raster icon
-├── favicon-180.png              apple-touch-icon
-├── CNAME                        www.jlsola.com (do not change without DNS coordination)
-└── files/                       CV, headshot, survey prompt images, etc.
-    ├── Sola_CV.pdf
-    ├── edited_headshot_w1064.jpg
-    ├── pistol.png / ar-15.png / hunting_rifle.png
-    └── hunting_rifle_example.png
-```
+- **CV:** replace `files/Sola_CV.pdf` with your new PDF using that exact filename. All CV links continue to work.
+- **Headshot:** replace `files/edited_headshot_w1064.jpg` with a new JPG using that exact filename. The image keeps its original proportions and scales to fit; there is no fixed crop. If your new image is a PNG, export it as a JPG first or change the filename in `about.html`.
 
-## How pages fit together
+Replacing the file directly is simplest. Deleting and uploading the same-named file also works; the link will briefly be unavailable between the two commits. If a browser shows the old file afterward, refresh with Ctrl+Shift+R (Windows) or Cmd+Shift+R (Mac).
 
-Each `.html` page at the repo root has a YAML front-matter block:
+## Where to edit
 
-```yaml
----
-layout: default
-permalink: /about.html
-title: "About — Justin Lucas Sola, PhD"
-description: "…"
-nav: about               # which top-nav item to highlight (research | about | gun_desirability)
-footer_note: '<a href="mailto:jlsola@unc.edu">jlsola@unc.edu</a>'
----
-```
+| File | What it controls |
+| --- | --- |
+| `index.html` | Email and ORCID links, research statement, teaching interests, publications |
+| `about.html` | Biography, fellowships, projects, service, headshot |
+| `gun_desirability.html` | Qualtrics instructions and download links |
+| `_layouts/default.html` | Navigation, copyright note, shared page structure |
+| `assets/css/site.css` | Typography, colors, spacing, mobile layout |
+| `assets/fonts/` | Local font files and their license |
+| `_config.yml` | Site metadata and Jekyll settings |
+| `files/` | CV, headshot, and research materials |
 
-Everything under the front matter is the body content; the layout (`_layouts/default.html`) wraps it with `<!doctype>`, `<head>`, the top bar, and the footer.
+Keep the YAML block between `---` lines at the top of each page. The HTML below it is the page content.
 
-## Swap recipes
+## Add a publication
 
-### Add a publication
-Open `index.html`. Find `<ol class="pubs">`. Copy the most recent `<li>` and edit in place.
+In `index.html`, find `<ol class="pubs">`. Copy one complete `<li>...</li>` block, put it in date order, and replace the text and DOI:
 
 ```html
-<li>  <!-- add class="invited" for commentaries -->
+<li>
   <div class="year">2026</div>
-  <div class="pub-venue">
-    <span class="venue-name">Law &amp; Society Review</span>
-    Online First
-  </div>
-  <div>
+  <div class="pub-detail">
     <div class="pub-title">
-      <a class="ext" href="https://doi.org/...">"Title."</a>
+      <a href="https://doi.org/your-doi">Article title</a>
     </div>
-    <div class="pub-authors">
-      <strong>Justin L. Sola</strong>
+    <div class="pub-authors"><strong>Justin L. Sola</strong> and Coauthor</div>
+    <div class="pub-venue">
+      <span class="venue-name">Journal Name</span>Volume(issue): pages
     </div>
-    <!-- optional award pill -->
-    <span class="award">2024 Best Paper Award</span>
   </div>
 </li>
 ```
 
-- **Year** in `.year` — pubs are grouped visually by this column.
-- **Venue** italicized name + note underneath (issue, pages, "Online First", etc.).
-- **Authors**: wrap your name in `<strong>`. Multi-author: `First A., Second B., and Third C.` — Oxford comma.
-- **External / DOI links**: always `class="ext"` — gives them the purple hover (the one place purple appears in body text).
-- **Invited / commentary**: add `class="invited"` to the `<li>`. The row is subdued and an "Invited" pill appears.
-- **Award**: add a `<span class="award">` — outlined gold star pill.
+Use `&amp;` for `&` in HTML. Your name can remain bold. Add an optional plain award note with `<span class="award">Award text</span>`. Keep the public DOI link rather than a university-library proxy URL.
 
-### Add a fellowship or award (About)
-Edit `about.html` → `<ul class="fellowship-list">`. One `<li>` per item. `class="flagship"` highlights one in purple.
+For invited work, use `<li class="invited">` and add `<span class="invited-tag">Invited</span>` immediately before the title link, inside `pub-title`. The badge is separate from the title. The stylesheet automatically mutes that entry slightly. Leave the article's actual title unchanged and put “Book review” or “Focus article” with the journal details.
 
-### Add a page to the top navigation
-Top nav lives once in `_layouts/default.html` — not per page. To add a link:
+## Edit fellowships and projects
 
-1. In `_layouts/default.html`, copy one of the `<a>` tags inside `<nav class="primary">`. Set its `href` and the `{% if page.nav == '…' %}class="current"{% endif %}` condition.
-2. Create a new `.html` page at the repo root with `layout: default` and `nav: your-new-name` in front matter.
+In `about.html`, each fellowship or project is one `<li>` inside its respective list. Fellowships have a date, name, and optional institution:
 
-### Rename / add a redirect
-Use the `jekyll-redirect-from` plugin. In the page's front matter:
-
-```yaml
-redirect_from:
-  - /old_slug
-  - /old_slug.html
-  - /old_slug/
+```html
+<li>
+  <span class="fellowship-year">2026&ndash;27</span>
+  <span>
+    <span class="fellowship-name">Fellowship name</span>
+    <span class="fellowship-org">Institution</span>
+  </span>
+</li>
 ```
 
-That generates tiny HTML pages at each old URL that meta-refresh to the new one. `about.html` already has this wired for the legacy `/about_me*` URLs.
+You can omit the institution span. The alternating row color and mobile layout are automatic; do not add row-specific styles. Projects remain simple list items.
 
-### Change a color
-All colors live in `assets/css/site.css` under `:root`:
+The original navy is `--navy: #1b3d6d` in `assets/css/site.css`. It controls the header, headings, and methods step markers. `--navy-tint` controls the pale backgrounds.
 
-| Token        | Value     | Where it appears                                       |
-|--------------|-----------|--------------------------------------------------------|
-| `--navy`     | `#1B3D6D` | Top bar, headings, year column, link color, rules      |
-| `--gold`     | `#EE9900` | Hover underline, current-nav, award pill, code rail    |
-| `--purple`   | `#5A007E` | External-link hover, focus ring, flagship pill         |
-| `--muted`    | `#5f6b7c` | Secondary text, captions, venue lines                  |
-| `--ink`      | `#1c1c1c` | Body text                                              |
+The original gold is `--gold: #ee9900`. It appears on hovered links and the active navigation link. `--gold-hover` uses the original half-opacity gold for a subtler underline when hovering over another navigation link. These effects also work with keyboard focus.
 
-Edit the hex, save, push.
+Source Serif 4 is used throughout the site, including navigation and captions. Its regular and italic font files are stored locally in `assets/fonts/`, so the downloaded preview uses the same type offline. The files retain common accents and punctuation, and the shared layout preloads them to reduce a brief fallback-font flash. The `--serif` variable and the two `@font-face` rules at the top of `assets/css/site.css` control the font. Keep the accompanying license with the font files.
 
-### Change the sigil (gold dot by the name)
-`.topline .mark::before` in `site.css` — it's a 7px circle. Change `background` to retint, `width`/`height` to resize. The dot in the footer is `.foot .sigil` (8px).
+On the methods page, the three section headings have stable `id` values. Keep these IDs when editing their text so the in-page links keep working. The code is visible and selectable; no JavaScript interface is needed.
 
-### Replace the favicon
-Edit `favicon.svg` directly — plain XML. Then export 32×32 and 180×180 PNGs (any tool) and overwrite `favicon-32.png` / `favicon-180.png`. The legacy `favicon.ico` is only a fallback for ancient browsers; leave it alone unless you feel like regenerating.
+## Shared navigation and redirects
 
-### Google Analytics
-Change the tag ID in `_includes/google-analytics.html` if you ever rotate properties. It's included once by the layout, so all pages pick it up automatically.
+Edit navigation once in `_layouts/default.html`. For a new page, copy an existing page and update `title`, `description`, `nav`, and `permalink` in its YAML block. The current About page retains redirects from `/about_me`, `/about_me.html`, and `/about_me/`.
 
-## Local preview
+The only element at the bottom of each page is a small copyright note. Edit its year once in `_layouts/default.html`.
+
+The home page's `contact-links` block contains direct Email and ORCID links. CV stays in the top navigation only.
+
+Keep `CNAME` unchanged (`www.jlsola.com`) unless you are also changing domain settings. Analytics remains in `_includes/google-analytics.html` and is included only in production builds.
+
+## Review without installing anything
+
+The review ZIP includes a `preview` folder. Extract the entire ZIP, then double-click `preview/index.html`. Its page sections share one document and embedded Source Serif 4 fonts, so switching pages does not reload the fonts. The preview waits for the regular and italic faces before showing its text. Navigation, CV, images, and research downloads work locally; external links still require an internet connection.
+
+The `source` folder is the editable GitHub version. Make lasting edits there. It retains separate HTML pages and the shared Jekyll layout; the bundled preview is only a review convenience. The preview is a generated snapshot and does not automatically update after source edits. Do not upload its combined `index.html` in place of the source page.
+
+## Optional Jekyll preview
+
+If you already use Ruby/Jekyll locally:
 
 ```bash
 gem install jekyll jekyll-seo-tag jekyll-redirect-from jekyll-sitemap
 jekyll serve
-# → http://127.0.0.1:4000
 ```
 
-GitHub Pages uses its own pinned versions of these plugins, so minor output differences are possible; the live build is authoritative.
+The local server address appears in the terminal. GitHub Pages uses its own pinned versions, so its build remains authoritative. No custom JavaScript framework or dependency installation is required for normal website maintenance.
 
 ## Publishing
 
-Commit to the default branch (`master`) and push. GitHub Pages rebuilds automatically within ~60s. You can watch the status under **Actions** on GitHub.
-
-The `CNAME` file (currently `www.jlsola.com`) tells Pages which custom domain to serve. DNS is managed through Cloudflare; any domain change needs to be coordinated there too.
+After reviewing changes, commit and push them to `master`. GitHub Pages rebuilds automatically. Check the result in the repository's Actions tab. The current review does not publish or modify the remote repository.

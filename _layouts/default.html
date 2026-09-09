@@ -4,17 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
+<link rel="preload" href="{{ '/assets/fonts/SourceSerif4-regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ '/assets/fonts/SourceSerif4-italic.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+
 <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32.png' | relative_url }}">
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/favicon-180.png' | relative_url }}">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300..700;1,8..60,400&family=Source+Sans+3:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 <style>
-  #skip-to-content { position: absolute; left: 8px; top: -40px; background: var(--navy, #1B3D6D); color: #fff; padding: 8px 14px; font-family: "Source Sans 3", sans-serif; font-size: 13px; z-index: 100; text-decoration: none; border-radius: 0 0 3px 3px; }
+  #skip-to-content { position: absolute; left: 8px; top: -40px; background: var(--navy, #1B3D6D); color: #fff; padding: 8px 14px; font-family: inherit; font-size: .875rem; z-index: 100; text-decoration: none; border-radius: 0 0 3px 3px; }
   #skip-to-content:focus { top: 0; }
 </style>
 
@@ -30,24 +30,22 @@
 <a id="skip-to-content" href="#content">Skip to the content.</a>
 
 <header class="topline">
+ <div class="topline-inner">
   <a class="mark" href="{{ '/' | relative_url }}">Justin L. Sola</a>
-  <nav class="primary">
-    <a {% if page.nav == 'research' %}class="current" {% endif %}href="{{ '/' | relative_url }}">Research</a>
-    <a {% if page.nav == 'about' %}class="current" {% endif %}href="{{ '/about.html' | relative_url }}">About</a>
-    <a {% if page.nav == 'gun_desirability' %}class="current" {% endif %}href="{{ '/gun_desirability.html' | relative_url }}">Gun desirability</a>
+  <nav class="primary" aria-label="Main navigation">
+    <a {% if page.nav == 'research' %}class="current" aria-current="page" {% endif %}href="{{ '/' | relative_url }}">Research</a>
+    <a {% if page.nav == 'about' %}class="current" aria-current="page" {% endif %}href="{{ '/about.html' | relative_url }}">About</a>
+    <a {% if page.nav == 'gun_desirability' %}class="current" aria-current="page" {% endif %}href="{{ '/gun_desirability.html' | relative_url }}">Gun desirability</a>
     <a href="{{ '/files/Sola_CV.pdf' | relative_url }}">CV</a>
-    <a class="ext" href="https://orcid.org/0000-0002-0955-1031">ORCID</a>
     <a href="mailto:jlsola@unc.edu">Email</a>
   </nav>
+ </div>
 </header>
 
 <main id="content">
 {{ content }}
 
-  <footer class="foot">
-    <span>jlsola.com <span class="sigil"></span> &copy; {{ 'now' | date: '%Y' }} Justin Lucas Sola</span>
-    <span>{{ page.footer_note | default: 'Updated April 2026' }}</span>
-  </footer>
+  <p class="copyright">&copy; 2026 Justin Lucas Sola</p>
 </main>
 
 </body>
